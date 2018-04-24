@@ -1,0 +1,1128 @@
+2018-04-24 15:01:19,557 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:01:19,560 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001502]
+2018-04-24 15:01:22,232 - DEBUG - connectionpool._new_conn(): 208: Starting new HTTP connection (1): text-processing.com
+2018-04-24 15:01:22,432 - DEBUG - connectionpool._make_request(): 396: http://text-processing.com:80 "POST /api/sentiment/ HTTP/1.1" 200 None
+2018-04-24 15:01:22,435 - DEBUG - connectionpool._new_conn(): 208: Starting new HTTP connection (1): text-processing.com
+2018-04-24 15:01:22,624 - DEBUG - connectionpool._make_request(): 396: http://text-processing.com:80 "POST /api/sentiment/ HTTP/1.1" 200 None
+2018-04-24 15:01:22,627 - DEBUG - connectionpool._new_conn(): 208: Starting new HTTP connection (1): text-processing.com
+2018-04-24 15:01:22,812 - DEBUG - connectionpool._make_request(): 396: http://text-processing.com:80 "POST /api/sentiment/ HTTP/1.1" 200 None
+2018-04-24 15:01:22,815 - DEBUG - connectionpool._new_conn(): 208: Starting new HTTP connection (1): text-processing.com
+2018-04-24 15:01:23,000 - DEBUG - connectionpool._make_request(): 396: http://text-processing.com:80 "POST /api/sentiment/ HTTP/1.1" 200 None
+2018-04-24 15:01:23,003 - DEBUG - connectionpool._new_conn(): 208: Starting new HTTP connection (1): text-processing.com
+2018-04-24 15:01:23,187 - DEBUG - connectionpool._make_request(): 396: http://text-processing.com:80 "POST /api/sentiment/ HTTP/1.1" 200 None
+2018-04-24 15:01:23,190 - DEBUG - connectionpool._new_conn(): 208: Starting new HTTP connection (1): text-processing.com
+2018-04-24 15:01:23,370 - DEBUG - connectionpool._make_request(): 396: http://text-processing.com:80 "POST /api/sentiment/ HTTP/1.1" 200 None
+2018-04-24 15:01:23,374 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:01:23,376 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001502]
+2018-04-24 15:01:23,376 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:01:23,377 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:01:23,377 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:01:23,379 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:01:23,379 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:01:23,381 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:01:23,381 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:01:23,382 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:01:23,384 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,072 - DEBUG - oauth1_auth.__call__(): 63: Signing request <PreparedRequest [POST]> using client <Client client_key=nA0WOLYv7EyMHJgDILuOkP7u7, client_secret=****, resource_owner_key=3439367121-io3u2ZFFqnVH70M381GsTFI0AVULIzFyo8xektQ, resource_owner_secret=****, signature_method=HMAC-SHA1, signature_type=AUTH_HEADER, callback_uri=None, rsa_key=None, verifier=None, realm=None, encoding=utf-8, decoding=None, nonce=None, timestamp=None>
+2018-04-24 15:05:16,073 - DEBUG - oauth1_auth.__call__(): 75: Including body in call to sign: True
+2018-04-24 15:05:16,075 - DEBUG - __init__.get_oauth_signature(): 135: Collected params: [('delimited', 'length'), ('oauth_nonce', '77122871326265198511524596716'), ('oauth_timestamp', '1524596716'), ('oauth_version', '1.0'), ('oauth_signature_method', 'HMAC-SHA1'), ('oauth_consumer_key', 'nA0WOLYv7EyMHJgDILuOkP7u7'), ('oauth_token', '3439367121-io3u2ZFFqnVH70M381GsTFI0AVULIzFyo8xektQ'), ('track', 'health_trace,code,bnt87,bitcoinmktjrnl,foleyhoag,50skillsinfo,tiveinc,bostonnewtech')]
+2018-04-24 15:05:16,076 - DEBUG - __init__.get_oauth_signature(): 140: Normalized params: delimited=length&oauth_consumer_key=nA0WOLYv7EyMHJgDILuOkP7u7&oauth_nonce=77122871326265198511524596716&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1524596716&oauth_token=3439367121-io3u2ZFFqnVH70M381GsTFI0AVULIzFyo8xektQ&oauth_version=1.0&track=health_trace%2Ccode%2Cbnt87%2Cbitcoinmktjrnl%2Cfoleyhoag%2C50skillsinfo%2Ctiveinc%2Cbostonnewtech
+2018-04-24 15:05:16,076 - DEBUG - __init__.get_oauth_signature(): 141: Normalized URI: https://stream.twitter.com/1.1/statuses/filter.json
+2018-04-24 15:05:16,078 - DEBUG - __init__.get_oauth_signature(): 146: Base signing string: POST&https%3A%2F%2Fstream.twitter.com%2F1.1%2Fstatuses%2Ffilter.json&delimited%3Dlength%26oauth_consumer_key%3DnA0WOLYv7EyMHJgDILuOkP7u7%26oauth_nonce%3D77122871326265198511524596716%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1524596716%26oauth_token%3D3439367121-io3u2ZFFqnVH70M381GsTFI0AVULIzFyo8xektQ%26oauth_version%3D1.0%26track%3Dhealth_trace%252Ccode%252Cbnt87%252Cbitcoinmktjrnl%252Cfoleyhoag%252C50skillsinfo%252Ctiveinc%252Cbostonnewtech
+2018-04-24 15:05:16,078 - DEBUG - __init__.get_oauth_signature(): 153: Signature: /pEixCEgb+sztMXyi9E4RoCXVcY=
+2018-04-24 15:05:16,081 - DEBUG - oauth1_auth.__call__(): 92: Updated url: https://stream.twitter.com/1.1/statuses/filter.json?delimited=length
+2018-04-24 15:05:16,082 - DEBUG - oauth1_auth.__call__(): 93: Updated headers: {'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '103', 'Authorization': 'OAuth oauth_nonce="77122871326265198511524596716", oauth_timestamp="1524596716", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="nA0WOLYv7EyMHJgDILuOkP7u7", oauth_token="3439367121-io3u2ZFFqnVH70M381GsTFI0AVULIzFyo8xektQ", oauth_signature="%2FpEixCEgb%2BsztMXyi9E4RoCXVcY%3D"'}
+2018-04-24 15:05:16,084 - DEBUG - oauth1_auth.__call__(): 94: Updated body: 'track=health_trace%2Ccode%2Cbnt87%2Cbitcoinmktjrnl%2Cfoleyhoag%2C50skillsinfo%2Ctiveinc%2Cbostonnewtech'
+2018-04-24 15:05:16,087 - DEBUG - connectionpool._new_conn(): 824: Starting new HTTPS connection (1): stream.twitter.com
+2018-04-24 15:05:16,108 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,153 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,162 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006004]
+2018-04-24 15:05:16,194 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,210 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0085]
+2018-04-24 15:05:16,239 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,262 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.022015]
+2018-04-24 15:05:16,279 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,290 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.009506]
+2018-04-24 15:05:16,312 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,320 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007004]
+2018-04-24 15:05:16,349 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,365 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.01551]
+2018-04-24 15:05:16,386 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,399 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.011508]
+2018-04-24 15:05:16,434 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,443 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.008506]
+2018-04-24 15:05:16,471 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,488 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.01501]
+2018-04-24 15:05:16,502 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,516 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.013009]
+2018-04-24 15:05:16,549 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,556 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006505]
+2018-04-24 15:05:16,589 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,607 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.01601]
+2018-04-24 15:05:16,636 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,651 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.01451]
+2018-04-24 15:05:16,661 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,668 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006506]
+2018-04-24 15:05:16,701 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,718 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.01651]
+2018-04-24 15:05:16,753 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,767 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.014009]
+2018-04-24 15:05:16,781 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,789 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007506]
+2018-04-24 15:05:16,829 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,847 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.012509]
+2018-04-24 15:05:16,860 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,872 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.011007]
+2018-04-24 15:05:16,909 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,925 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.014509]
+2018-04-24 15:05:16,941 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,948 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006505]
+2018-04-24 15:05:16,981 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:16,988 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006503]
+2018-04-24 15:05:17,030 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,047 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.016511]
+2018-04-24 15:05:17,061 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,073 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.011508]
+2018-04-24 15:05:17,110 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,117 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007011]
+2018-04-24 15:05:17,141 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,148 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006004]
+2018-04-24 15:05:17,190 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,199 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.008504]
+2018-04-24 15:05:17,221 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,234 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.012008]
+2018-04-24 15:05:17,270 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,272 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:05:17,301 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,304 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:05:17,341 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,344 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:05:17,390 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,391 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:17,434 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,437 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000998]
+2018-04-24 15:05:17,473 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,475 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:17,501 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,503 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000998]
+2018-04-24 15:05:17,551 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,552 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:17,582 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,584 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:17,621 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,623 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:05:17,655 - DEBUG - connectionpool._make_request(): 396: https://stream.twitter.com:443 "POST /1.1/statuses/filter.json?delimited=length HTTP/1.1" 200 None
+2018-04-24 15:05:17,670 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,671 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:17,702 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,704 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:17,748 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,749 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:17,794 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,795 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:17,832 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,834 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:05:17,861 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,863 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000501]
+2018-04-24 15:05:17,908 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,910 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:17,940 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,942 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:17,981 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:17,983 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:05:18,030 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,037 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:18,062 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,063 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:18,108 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,110 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:05:18,154 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,155 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:05:18,194 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,198 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004003]
+2018-04-24 15:05:18,221 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,226 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004503]
+2018-04-24 15:05:18,262 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,265 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002501]
+2018-04-24 15:05:18,310 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,314 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004003]
+2018-04-24 15:05:18,341 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,345 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004003]
+2018-04-24 15:05:18,390 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,394 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003502]
+2018-04-24 15:05:18,421 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,426 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003504]
+2018-04-24 15:05:18,470 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,475 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004001]
+2018-04-24 15:05:18,501 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,507 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004003]
+2018-04-24 15:05:18,551 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,556 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004005]
+2018-04-24 15:05:18,581 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,586 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004003]
+2018-04-24 15:05:18,622 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,627 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004002]
+2018-04-24 15:05:18,669 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,673 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003502]
+2018-04-24 15:05:18,715 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,720 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004503]
+2018-04-24 15:05:18,750 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,754 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001499]
+2018-04-24 15:05:18,780 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,782 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:18,828 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,830 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001502]
+2018-04-24 15:05:18,861 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,862 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:18,910 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,912 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:05:18,940 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,943 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:05:18,980 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:18,982 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:05:19,030 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,032 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:19,061 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,083 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:19,120 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,122 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:19,141 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,142 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:19,190 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,192 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:05:19,220 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,222 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:19,269 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,271 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:05:19,300 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,302 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000498]
+2018-04-24 15:05:19,340 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,343 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:05:19,389 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,391 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:19,421 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,423 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000999]
+2018-04-24 15:05:19,471 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,473 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000501]
+2018-04-24 15:05:19,501 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,503 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:19,551 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,553 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:05:19,580 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,582 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:19,629 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,631 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:19,669 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,672 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:19,715 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,721 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005003]
+2018-04-24 15:05:19,751 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,760 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005003]
+2018-04-24 15:05:19,781 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,786 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004003]
+2018-04-24 15:05:19,829 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,835 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005007]
+2018-04-24 15:05:19,861 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,865 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003502]
+2018-04-24 15:05:19,911 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,915 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003002]
+2018-04-24 15:05:19,941 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,945 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002999]
+2018-04-24 15:05:19,981 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:19,986 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004503]
+2018-04-24 15:05:20,030 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,036 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005502]
+2018-04-24 15:05:20,061 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,065 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003003]
+2018-04-24 15:05:20,112 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,117 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004003]
+2018-04-24 15:05:20,141 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,146 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004002]
+2018-04-24 15:05:20,191 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,195 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003502]
+2018-04-24 15:05:20,221 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,224 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003001]
+2018-04-24 15:05:20,270 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,272 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001002]
+2018-04-24 15:05:20,301 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,302 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:05:20,341 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,343 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000999]
+2018-04-24 15:05:20,390 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,391 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001002]
+2018-04-24 15:05:20,421 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,423 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000501]
+2018-04-24 15:05:20,469 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,471 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:20,512 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,513 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001002]
+2018-04-24 15:05:20,556 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,558 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:05:20,581 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,583 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000501]
+2018-04-24 15:05:20,628 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,630 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:20,669 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,670 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:20,715 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,716 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000999]
+2018-04-24 15:05:20,754 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,756 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:20,782 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,784 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:20,828 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,830 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:20,871 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,873 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:20,914 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,916 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000501]
+2018-04-24 15:05:20,941 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,943 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:05:20,981 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:20,983 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:21,030 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,032 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:21,062 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,085 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000498]
+2018-04-24 15:05:21,189 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,191 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:21,221 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,223 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:05:21,270 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,273 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002004]
+2018-04-24 15:05:21,301 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,304 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002499]
+2018-04-24 15:05:21,342 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,345 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002502]
+2018-04-24 15:05:21,389 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,392 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002003]
+2018-04-24 15:05:21,435 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,438 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002]
+2018-04-24 15:05:21,472 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,475 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002002]
+2018-04-24 15:05:21,501 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,505 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002502]
+2018-04-24 15:05:21,551 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,555 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002499]
+2018-04-24 15:05:21,581 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,584 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002502]
+2018-04-24 15:05:21,621 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,624 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002]
+2018-04-24 15:05:21,669 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,672 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0025]
+2018-04-24 15:05:21,715 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,719 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003003]
+2018-04-24 15:05:21,752 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,756 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003504]
+2018-04-24 15:05:21,782 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,786 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0035]
+2018-04-24 15:05:21,828 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,832 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002501]
+2018-04-24 15:05:21,860 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,863 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:05:21,909 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,911 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:21,940 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,942 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001002]
+2018-04-24 15:05:21,981 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:21,982 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:22,030 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:22,032 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:22,060 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:22,062 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:22,127 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:22,147 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:05:22,187 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:22,190 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002002]
+2018-04-24 15:05:22,231 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:22,244 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.011509]
+2018-04-24 15:05:22,265 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:22,270 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002001]
+2018-04-24 15:05:22,312 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:22,314 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:05:22,342 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:22,346 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:05:22,391 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:05:22,393 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:15:54,900 - INFO - socials.start(): 345: Starting Streaming API
+2018-04-24 15:15:54,901 - INFO - socials.create_stream(): 323: Creating Stream
+2018-04-24 15:15:54,906 - INFO - socials.create_stream(): 333: Stream filter arg was already a list, using it as the track
+2018-04-24 15:15:54,908 - DEBUG - oauth1_auth.__call__(): 63: Signing request <PreparedRequest [POST]> using client <Client client_key=nA0WOLYv7EyMHJgDILuOkP7u7, client_secret=****, resource_owner_key=3439367121-io3u2ZFFqnVH70M381GsTFI0AVULIzFyo8xektQ, resource_owner_secret=****, signature_method=HMAC-SHA1, signature_type=AUTH_HEADER, callback_uri=None, rsa_key=None, verifier=None, realm=None, encoding=utf-8, decoding=None, nonce=None, timestamp=None>
+2018-04-24 15:15:54,909 - INFO - socials.start(): 347: Streaming API Started
+2018-04-24 15:15:54,909 - DEBUG - oauth1_auth.__call__(): 75: Including body in call to sign: True
+2018-04-24 15:15:54,911 - DEBUG - __init__.get_oauth_signature(): 135: Collected params: [('delimited', 'length'), ('oauth_nonce', '141153616121719726541524597354'), ('oauth_timestamp', '1524597354'), ('oauth_version', '1.0'), ('oauth_signature_method', 'HMAC-SHA1'), ('oauth_consumer_key', 'nA0WOLYv7EyMHJgDILuOkP7u7'), ('oauth_token', '3439367121-io3u2ZFFqnVH70M381GsTFI0AVULIzFyo8xektQ'), ('track', '50skillsinfo,tiveinc,foleyhoag,code,bitcoinmktjrnl,bnt87,health_trace,bostonnewtech')]
+2018-04-24 15:15:54,912 - DEBUG - __init__.get_oauth_signature(): 140: Normalized params: delimited=length&oauth_consumer_key=nA0WOLYv7EyMHJgDILuOkP7u7&oauth_nonce=141153616121719726541524597354&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1524597354&oauth_token=3439367121-io3u2ZFFqnVH70M381GsTFI0AVULIzFyo8xektQ&oauth_version=1.0&track=50skillsinfo%2Ctiveinc%2Cfoleyhoag%2Ccode%2Cbitcoinmktjrnl%2Cbnt87%2Chealth_trace%2Cbostonnewtech
+2018-04-24 15:15:54,912 - DEBUG - __init__.get_oauth_signature(): 141: Normalized URI: https://stream.twitter.com/1.1/statuses/filter.json
+2018-04-24 15:15:54,912 - DEBUG - __init__.get_oauth_signature(): 146: Base signing string: POST&https%3A%2F%2Fstream.twitter.com%2F1.1%2Fstatuses%2Ffilter.json&delimited%3Dlength%26oauth_consumer_key%3DnA0WOLYv7EyMHJgDILuOkP7u7%26oauth_nonce%3D141153616121719726541524597354%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1524597354%26oauth_token%3D3439367121-io3u2ZFFqnVH70M381GsTFI0AVULIzFyo8xektQ%26oauth_version%3D1.0%26track%3D50skillsinfo%252Ctiveinc%252Cfoleyhoag%252Ccode%252Cbitcoinmktjrnl%252Cbnt87%252Chealth_trace%252Cbostonnewtech
+2018-04-24 15:15:54,913 - DEBUG - __init__.get_oauth_signature(): 153: Signature: Jz0S/Gfu2x+7zqB1Cc9ZAkaSd5o=
+2018-04-24 15:15:54,913 - DEBUG - oauth1_auth.__call__(): 92: Updated url: https://stream.twitter.com/1.1/statuses/filter.json?delimited=length
+2018-04-24 15:15:54,914 - DEBUG - oauth1_auth.__call__(): 93: Updated headers: {'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '103', 'Authorization': 'OAuth oauth_nonce="141153616121719726541524597354", oauth_timestamp="1524597354", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="nA0WOLYv7EyMHJgDILuOkP7u7", oauth_token="3439367121-io3u2ZFFqnVH70M381GsTFI0AVULIzFyo8xektQ", oauth_signature="Jz0S%2FGfu2x%2B7zqB1Cc9ZAkaSd5o%3D"'}
+2018-04-24 15:15:54,914 - DEBUG - oauth1_auth.__call__(): 94: Updated body: 'track=50skillsinfo%2Ctiveinc%2Cfoleyhoag%2Ccode%2Cbitcoinmktjrnl%2Cbnt87%2Chealth_trace%2Cbostonnewtech'
+2018-04-24 15:15:54,916 - DEBUG - connectionpool._new_conn(): 824: Starting new HTTPS connection (1): stream.twitter.com
+2018-04-24 15:15:54,940 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:54,988 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:54,993 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003502]
+2018-04-24 15:15:55,021 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,028 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006505]
+2018-04-24 15:15:55,064 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,080 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.015512]
+2018-04-24 15:15:55,127 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,133 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005003]
+2018-04-24 15:15:55,146 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,154 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007007]
+2018-04-24 15:15:55,199 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,207 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006506]
+2018-04-24 15:15:55,232 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,262 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.028521]
+2018-04-24 15:15:55,275 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,282 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007004]
+2018-04-24 15:15:55,302 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,309 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006004]
+2018-04-24 15:15:55,358 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,365 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006005]
+2018-04-24 15:15:55,392 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,399 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007005]
+2018-04-24 15:15:55,419 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,424 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004502]
+2018-04-24 15:15:55,468 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,476 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007505]
+2018-04-24 15:15:55,499 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,504 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004501]
+2018-04-24 15:15:55,548 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,557 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.008006]
+2018-04-24 15:15:55,580 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,591 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.008005]
+2018-04-24 15:15:55,627 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,635 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006003]
+2018-04-24 15:15:55,668 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,675 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006004]
+2018-04-24 15:15:55,699 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,707 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007004]
+2018-04-24 15:15:55,747 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,755 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006504]
+2018-04-24 15:15:55,793 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,801 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006504]
+2018-04-24 15:15:55,830 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,839 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.008006]
+2018-04-24 15:15:55,860 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,870 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.009005]
+2018-04-24 15:15:55,909 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,918 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.008005]
+2018-04-24 15:15:55,939 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,948 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.008005]
+2018-04-24 15:15:55,988 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:55,993 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004002]
+2018-04-24 15:15:56,019 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,024 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004003]
+2018-04-24 15:15:56,059 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,061 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:15:56,109 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,111 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:15:56,140 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,141 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000501]
+2018-04-24 15:15:56,189 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,191 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000501]
+2018-04-24 15:15:56,220 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,221 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:15:56,267 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,268 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:15:56,308 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,310 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000501]
+2018-04-24 15:15:56,355 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,357 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001002]
+2018-04-24 15:15:56,389 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,391 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:15:56,419 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,421 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001503]
+2018-04-24 15:15:56,446 - DEBUG - connectionpool._make_request(): 396: https://stream.twitter.com:443 "POST /1.1/statuses/filter.json?delimited=length HTTP/1.1" 200 None
+2018-04-24 15:15:56,447 - INFO - socials.on_connect(): 357: Stream has connected to streaming server
+2018-04-24 15:15:56,468 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,469 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:56,499 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,500 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:15:56,549 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,550 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001002]
+2018-04-24 15:15:56,579 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,581 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:15:56,627 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,629 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000503]
+2018-04-24 15:15:56,669 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,670 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:56,699 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,701 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:15:56,752 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,753 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:15:56,779 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,781 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:56,828 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,829 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:56,860 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,861 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:56,908 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,909 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:15:56,940 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,941 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:15:56,989 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:56,991 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:57,020 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,023 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002504]
+2018-04-24 15:15:57,059 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,062 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0025]
+2018-04-24 15:15:57,109 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,113 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003002]
+2018-04-24 15:15:57,140 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,143 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002502]
+2018-04-24 15:15:57,187 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,192 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004003]
+2018-04-24 15:15:57,231 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,235 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003502]
+2018-04-24 15:15:57,274 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,278 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003002]
+2018-04-24 15:15:57,299 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,304 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004]
+2018-04-24 15:15:57,348 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,351 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003002]
+2018-04-24 15:15:57,379 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,384 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004003]
+2018-04-24 15:15:57,385 - INFO - socials.on_status(): 371: Got a new interaction id: [988859107686912000] text [aaaaaaaaaaaaah   hanty wa hacker here
+\ https://t.co/XZDCeTvyKW]
+2018-04-24 15:15:57,419 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,422 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002001]
+2018-04-24 15:15:57,468 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,471 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002001]
+2018-04-24 15:15:57,484 - INFO - socials.on_status(): 371: Got a new interaction id: [988859107854704640] text [RT @BandaiNamcoUS: Hear what PAX East fans had to say when they sunk their teeth into the world of CODE VEIN! 
+
+CODE VEIN arrives on Xbox O…]
+2018-04-24 15:15:57,500 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,503 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002501]
+2018-04-24 15:15:57,548 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,551 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002502]
+2018-04-24 15:15:57,579 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,581 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001502]
+2018-04-24 15:15:57,627 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,628 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:57,669 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,670 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:57,700 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,701 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:57,747 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,749 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:57,793 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,795 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:57,830 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,832 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:15:57,859 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,861 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:15:57,909 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,910 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001002]
+2018-04-24 15:15:57,939 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,941 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:15:57,956 - INFO - socials.on_status(): 371: Got a new interaction id: [988859110249680907] text [RT @HatInTime: You asked for it! We have teamed up with @theyetee to bring our fans the cutest merch out there!
+
+Shirts, buttons, a poster…]
+2018-04-24 15:15:57,988 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:57,990 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001002]
+2018-04-24 15:15:58,020 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,022 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:15:58,040 - INFO - socials.on_status(): 371: Got a new interaction id: [988859110274805761] text [@VincioTop @nzingaretti @ilmessaggeroit Evviva
+E quando meno code x le visite ed esami  e assistenza al  Pronto Soccorso?]
+2018-04-24 15:15:58,061 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,062 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000499]
+2018-04-24 15:15:58,108 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,109 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:15:58,152 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,154 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:15:58,191 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,193 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000501]
+2018-04-24 15:15:58,219 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,221 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:58,268 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,270 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:58,300 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,301 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:58,347 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,349 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001002]
+2018-04-24 15:15:58,387 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,392 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:58,433 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,435 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001002]
+2018-04-24 15:15:58,472 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,473 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:58,499 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,500 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:15:58,548 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,553 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003502]
+2018-04-24 15:15:58,580 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,585 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003002]
+2018-04-24 15:15:58,626 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,630 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003501]
+2018-04-24 15:15:58,668 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,671 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002501]
+2018-04-24 15:15:58,699 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,704 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004003]
+2018-04-24 15:15:58,748 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,752 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002997]
+2018-04-24 15:15:58,779 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,783 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003002]
+2018-04-24 15:15:58,827 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,832 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004005]
+2018-04-24 15:15:58,859 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,865 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005004]
+2018-04-24 15:15:58,919 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,945 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003002]
+2018-04-24 15:15:58,987 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:58,992 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004503]
+2018-04-24 15:15:59,027 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,031 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002502]
+2018-04-24 15:15:59,060 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,065 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004005]
+2018-04-24 15:15:59,107 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,110 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003007]
+2018-04-24 15:15:59,152 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,154 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:15:59,192 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,194 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001502]
+2018-04-24 15:15:59,219 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,220 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000499]
+2018-04-24 15:15:59,268 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,270 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:15:59,299 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,301 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:59,339 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,341 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000504]
+2018-04-24 15:15:59,389 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,390 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:15:59,419 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,420 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:15:59,468 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,470 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:59,485 - INFO - socials.on_status(): 371: Got a new interaction id: [988859116679499776] text [RT @pelicancoolers: For every cooler purchased this month, we’ll donate $10 to the NRA + and give you a FREE tumbler of your choice. Promo…]
+2018-04-24 15:15:59,500 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,502 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:59,549 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,550 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:59,580 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,581 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001002]
+2018-04-24 15:15:59,626 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,627 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:59,668 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,669 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:59,686 - INFO - socials.on_status(): 371: Got a new interaction id: [988859117463797760] text [@reviewer3blog Yes lots of whitespace is a must! :) Did you ever make a video walkthrough? Once at a conference I c… https://t.co/KJzGgvbYTD]
+2018-04-24 15:15:59,714 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,719 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:15:59,740 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,741 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:59,779 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,781 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:59,789 - INFO - socials.on_status(): 371: Got a new interaction id: [988859117761679362] text [RT @kenneth0stanley: You don't need a corporate-sized warehouse of servers to run deep neuroevolution!  For what formerly took an hour with…]
+2018-04-24 15:15:59,828 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,829 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:59,859 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,860 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:15:59,909 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,910 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000999]
+2018-04-24 15:15:59,940 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,941 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000999]
+2018-04-24 15:15:59,948 - INFO - socials.on_status(): 371: Got a new interaction id: [988859118873169920] text [RT @Maze_RunnerFr: Ki Hong Lee a aidé à créer le code du Labyrinthe.]
+2018-04-24 15:15:59,987 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:15:59,989 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000501]
+2018-04-24 15:16:00,027 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,029 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001002]
+2018-04-24 15:16:00,060 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,063 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002007]
+2018-04-24 15:16:00,108 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,111 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002502]
+2018-04-24 15:16:00,153 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,155 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002002]
+2018-04-24 15:16:00,189 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,192 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002001]
+2018-04-24 15:16:00,220 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,223 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003006]
+2018-04-24 15:16:00,268 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,271 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002001]
+2018-04-24 15:16:00,300 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,303 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002]
+2018-04-24 15:16:00,347 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,350 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002002]
+2018-04-24 15:16:00,386 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,389 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002001]
+2018-04-24 15:16:00,437 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,442 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002501]
+2018-04-24 15:16:00,471 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,473 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:16:00,500 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,503 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002503]
+2018-04-24 15:16:00,550 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,552 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:16:00,579 - INFO - socials.on_status(): 371: Got a new interaction id: [988859119841955841] text [TWITTER TUESDAY ALERT! Today's promo is FREE CONE WITH PURCHASE OF ANY ICE CREAM. Mention promo code "KOD" when pur… https://t.co/Q6kvYEX0bd]
+2018-04-24 15:16:00,582 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,584 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:16:00,625 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,628 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002001]
+2018-04-24 15:16:00,668 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,670 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:16:00,701 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,703 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:16:00,751 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,754 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:16:00,780 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,782 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:16:00,828 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,832 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002003]
+2018-04-24 15:16:00,860 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,861 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000999]
+2018-04-24 15:16:00,919 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:00,931 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:16:01,030 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,031 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:16:01,060 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,062 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000498]
+2018-04-24 15:16:01,107 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,109 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000999]
+2018-04-24 15:16:01,152 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,154 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:16:01,191 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,192 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000501]
+2018-04-24 15:16:01,219 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,221 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:16:01,269 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,271 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:16:01,300 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,301 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:16:01,351 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,353 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:16:01,380 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,382 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:16:01,419 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,421 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:16:01,469 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,480 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001502]
+2018-04-24 15:16:01,500 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,501 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:16:01,549 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,550 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001002]
+2018-04-24 15:16:01,579 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,582 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002004]
+2018-04-24 15:16:01,627 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,629 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:16:01,668 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,672 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002501]
+2018-04-24 15:16:01,699 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,703 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003501]
+2018-04-24 15:16:01,748 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,751 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002001]
+2018-04-24 15:16:01,793 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,796 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002001]
+2018-04-24 15:16:01,831 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,834 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002502]
+2018-04-24 15:16:01,859 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,861 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002002]
+2018-04-24 15:16:01,909 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,913 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003501]
+2018-04-24 15:16:01,939 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,942 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002001]
+2018-04-24 15:16:01,988 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:01,991 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002002]
+2018-04-24 15:16:02,019 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,022 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002502]
+2018-04-24 15:16:02,062 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,066 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003002]
+2018-04-24 15:16:02,107 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,109 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002001]
+2018-04-24 15:16:02,153 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,156 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002002]
+2018-04-24 15:16:02,181 - INFO - socials.on_status(): 371: Got a new interaction id: [988859127182057472] text [World War II Navajo Code Talker Roy Hawthorne Sr. dies at 92 https://t.co/3UVM4BgGpg via @CrucesSunNews]
+2018-04-24 15:16:02,190 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,192 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:16:02,220 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,221 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001002]
+2018-04-24 15:16:02,268 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,269 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:16:02,299 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,300 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000499]
+2018-04-24 15:16:02,348 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,350 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000498]
+2018-04-24 15:16:02,352 - INFO - socials.on_status(): 371: Got a new interaction id: [988859128855457792] text [Hi, Use my code DHARA854 to signup and get ₹300 goCash+. Click https://t.co/YuJ6ionJ7Z to download the goibibo app.… https://t.co/HEKqoFT7XP]
+2018-04-24 15:16:02,380 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,381 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000997]
+2018-04-24 15:16:02,403 - INFO - socials.on_status(): 371: Got a new interaction id: [988859128733995009] text [RT @AmericanHoneyNG: "No matter how tough it gets..." Complete this statement and you are one step closer to the sweet side of life and bot…]
+2018-04-24 15:16:02,420 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,421 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:16:02,469 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,470 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000501]
+2018-04-24 15:16:02,499 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,501 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000999]
+2018-04-24 15:16:02,549 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,550 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:16:02,579 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,581 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001003]
+2018-04-24 15:16:02,627 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,629 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:16:02,668 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,670 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:16:02,700 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,702 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:16:02,747 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,751 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:16:02,793 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,795 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:16:02,829 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,831 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000993]
+2018-04-24 15:16:02,859 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,860 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:16:02,919 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,937 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:16:02,983 - INFO - socials.on_status(): 371: Got a new interaction id: [988859131057590272] text [RT @sneakershunters: Air Jordan 11 Low “Cool Grey”
+Style Code: 528895-003
+Release Date: Apr 28, 2018
+Price: $175
+&gt;&gt; https://t.co/Ss7U7RgJGo…]
+2018-04-24 15:16:02,984 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:02,986 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:16:03,028 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,029 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:16:03,059 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,061 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000499]
+2018-04-24 15:16:03,109 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,110 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:16:03,139 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,144 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005004]
+2018-04-24 15:16:03,190 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,195 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005008]
+2018-04-24 15:16:03,220 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,226 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005505]
+2018-04-24 15:16:03,227 - INFO - socials.on_status(): 371: Got a new interaction id: [988859132701634561] text [RT @joncoopertweets: Donald Trump LIED TO THE FBI when he told James Comey that he never stayed overnight in Russia, as was proven by fligh…]
+2018-04-24 15:16:03,268 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,273 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005003]
+2018-04-24 15:16:03,299 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,305 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005005]
+2018-04-24 15:16:03,349 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,354 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005003]
+2018-04-24 15:16:03,379 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,385 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006002]
+2018-04-24 15:16:03,419 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,426 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006004]
+2018-04-24 15:16:03,469 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,475 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006004]
+2018-04-24 15:16:03,499 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,504 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004502]
+2018-04-24 15:16:03,515 - INFO - socials.on_status(): 371: Got a new interaction id: [988859134022795266] text [RT @crouhana: @DougCollinsUX "learn how to code" is a big statement. It depends on the situation and need.]
+2018-04-24 15:16:03,548 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,554 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004504]
+2018-04-24 15:16:03,580 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,586 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005506]
+2018-04-24 15:16:03,628 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,634 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005503]
+2018-04-24 15:16:03,659 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,665 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005502]
+2018-04-24 15:16:03,700 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,706 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005002]
+2018-04-24 15:16:03,745 - INFO - socials.on_status(): 371: Got a new interaction id: [988859132781346817] text [It’s official, Broke Boys out here with their own discount code. Dope af🙌🏽 https://t.co/V353TxKDK7]
+2018-04-24 15:16:03,749 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,755 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005503]
+2018-04-24 15:16:03,779 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,786 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006004]
+2018-04-24 15:16:03,828 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,834 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006004]
+2018-04-24 15:16:03,859 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,868 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007505]
+2018-04-24 15:16:03,968 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:03,999 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005003]
+2018-04-24 15:16:04,016 - INFO - socials.on_status(): 371: Got a new interaction id: [988859135650394113] text [RT @ThatEricAlper: Only Prince himself knew the key code for his Music Vault, so it had to be drilled open after he died, with the estate’s…]
+2018-04-24 15:16:04,019 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,028 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.008505]
+2018-04-24 15:16:04,059 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,065 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005003]
+2018-04-24 15:16:04,108 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,114 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005507]
+2018-04-24 15:16:04,139 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,145 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005005]
+2018-04-24 15:16:04,190 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,196 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005004]
+2018-04-24 15:16:04,207 - INFO - socials.on_status(): 371: Got a new interaction id: [988859136522760192] text [RT @murthaburke: Great Deals On Peggybuy 80% to 20% On Baby Clothes Follow Link And Use Code: Summer8 
+https://t.co/9reKYIoYFe 
+#blockchain…]
+2018-04-24 15:16:04,220 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,225 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005002]
+2018-04-24 15:16:04,269 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,275 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005004]
+2018-04-24 15:16:04,299 - INFO - socials.on_status(): 371: Got a new interaction id: [988859136929648640] text [Use a free cab today San Bernardino? Big freebie from LYFT with promo code LR4. uber is upset! Sweet offer. well-to-do]
+2018-04-24 15:16:04,300 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,306 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004504]
+2018-04-24 15:16:04,340 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,346 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005008]
+2018-04-24 15:16:04,387 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,392 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004502]
+2018-04-24 15:16:04,434 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,440 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006005]
+2018-04-24 15:16:04,469 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,475 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005005]
+2018-04-24 15:16:04,499 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,505 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005503]
+2018-04-24 15:16:04,549 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,555 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005005]
+2018-04-24 15:16:04,580 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,585 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004503]
+2018-04-24 15:16:04,629 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,635 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005507]
+2018-04-24 15:16:04,660 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,667 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006505]
+2018-04-24 15:16:04,706 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,711 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005005]
+2018-04-24 15:16:04,747 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,753 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006002]
+2018-04-24 15:16:04,794 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,800 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006005]
+2018-04-24 15:16:04,830 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,837 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006505]
+2018-04-24 15:16:04,859 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,865 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006005]
+2018-04-24 15:16:04,917 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:04,932 - INFO - socials.on_status(): 371: Got a new interaction id: [988859135319044096] text [#Seattle #seattle RAINY? Get Free rides! Download Lyft &amp; use promo code 50MILLION  // Deals For You !]
+2018-04-24 15:16:05,015 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004504]
+2018-04-24 15:16:05,041 - INFO - socials.on_status(): 371: Got a new interaction id: [988859139433680897] text [RT @EvilAngelVideo: #FollowFriday
+
+HELP US GET TO 250K FOLLOWERS AND I'LL POST A PROMO CODE FOR https://t.co/5ETTMJTKUh THAT GETS YOU 75% O…]
+2018-04-24 15:16:05,059 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,067 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007505]
+2018-04-24 15:16:05,108 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,114 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005004]
+2018-04-24 15:16:05,140 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,146 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005003]
+2018-04-24 15:16:05,187 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,192 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004503]
+2018-04-24 15:16:05,231 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,237 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005502]
+2018-04-24 15:16:05,272 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,278 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005004]
+2018-04-24 15:16:05,299 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,305 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005004]
+2018-04-24 15:16:05,321 - INFO - socials.on_status(): 371: Got a new interaction id: [988859141497077760] text [RT @WaysandMeansGOP: Tomorrow is #TaxDay and the good news is this is the last year you will have to file using the old, broken code. Check…]
+2018-04-24 15:16:05,340 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,345 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005007]
+2018-04-24 15:16:05,389 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,392 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002001]
+2018-04-24 15:16:05,420 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,424 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002999]
+2018-04-24 15:16:05,467 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,468 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:16:05,512 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,514 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001502]
+2018-04-24 15:16:05,551 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,553 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001002]
+2018-04-24 15:16:05,580 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,582 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:16:05,627 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,631 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:16:05,668 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,670 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:16:05,680 - INFO - socials.on_status(): 371: Got a new interaction id: [988859143074148352] text [@MumbaiPolice I am not able to get the verification code on the email while trying to fill the web form please chec… https://t.co/arenmn971D]
+2018-04-24 15:16:05,700 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,702 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:16:05,753 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,755 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001502]
+2018-04-24 15:16:05,780 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,783 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:16:05,830 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,833 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:16:05,860 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,862 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:16:05,918 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,946 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001501]
+2018-04-24 15:16:05,984 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:05,985 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:16:06,027 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,029 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:16:06,059 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,061 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:16:06,109 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,111 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:16:06,141 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,143 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:16:06,191 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,192 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:16:06,221 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,222 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:16:06,268 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,269 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:16:06,310 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,311 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000502]
+2018-04-24 15:16:06,340 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,342 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:16:06,384 - INFO - socials.on_status(): 371: Got a new interaction id: [988859145825669120] text [Hey I’m playing a game called HQ Trivia. You should play too. Use my code 'Sabab Akhter Tonoy' to sign up https://t.co/4BINEf3PkF]
+2018-04-24 15:16:06,387 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,388 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000501]
+2018-04-24 15:16:06,434 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,437 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001502]
+2018-04-24 15:16:06,469 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,472 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002002]
+2018-04-24 15:16:06,500 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,503 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002502]
+2018-04-24 15:16:06,549 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,553 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003502]
+2018-04-24 15:16:06,580 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,583 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001997]
+2018-04-24 15:16:06,618 - INFO - socials.on_status(): 371: Got a new interaction id: [988859146060685317] text [RT @iamrobertdobbs: Check out this new luxury streetwear brand @TheOneViolaClo! They have some really awesome stuff 🔥 Go to their website a…]
+2018-04-24 15:16:06,626 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,629 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002502]
+2018-04-24 15:16:06,670 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,674 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003002]
+2018-04-24 15:16:06,713 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,716 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002503]
+2018-04-24 15:16:06,739 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,743 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003002]
+2018-04-24 15:16:06,780 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,783 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001998]
+2018-04-24 15:16:06,816 - INFO - socials.on_status(): 371: Got a new interaction id: [988859147197218816] text [RT @allkpop: Dream Catcher continue the mysterious teasers with mystery code #02 https://t.co/LoHTz5Wn0u]
+2018-04-24 15:16:06,829 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,832 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003002]
+2018-04-24 15:16:06,849 - INFO - socials.on_status(): 371: Got a new interaction id: [988859146857598977] text [Yo yo yo its me. 10% off all merch with code James 😂❤]
+2018-04-24 15:16:06,860 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,862 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0015]
+2018-04-24 15:16:06,919 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:06,995 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.002501]
+2018-04-24 15:16:07,035 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,039 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003503]
+2018-04-24 15:16:07,059 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,063 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003002]
+2018-04-24 15:16:07,108 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,110 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:16:07,139 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,141 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:16:07,189 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,191 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000499]
+2018-04-24 15:16:07,220 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,221 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.000502]
+2018-04-24 15:16:07,267 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,269 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:16:07,309 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,311 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001]
+2018-04-24 15:16:07,354 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,357 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.001001]
+2018-04-24 15:16:07,380 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,381 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:16:07,420 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,421 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.0005]
+2018-04-24 15:16:07,467 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,473 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005003]
+2018-04-24 15:16:07,512 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,518 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005003]
+2018-04-24 15:16:07,551 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,557 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005504]
+2018-04-24 15:16:07,577 - INFO - socials.on_status(): 371: Got a new interaction id: [988859150481444865] text [RT @JohnBouchell: @YETICoolers For every cooler purchased this month, we’ll donate $10 to the NRA + and give you a FREE tumbler of your cho…]
+2018-04-24 15:16:07,580 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,586 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005004]
+2018-04-24 15:16:07,627 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,634 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006001]
+2018-04-24 15:16:07,670 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,675 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005503]
+2018-04-24 15:16:07,700 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,706 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005503]
+2018-04-24 15:16:07,747 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,755 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007005]
+2018-04-24 15:16:07,795 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,801 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005003]
+2018-04-24 15:16:07,828 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,834 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005004]
+2018-04-24 15:16:07,861 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,868 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007004]
+2018-04-24 15:16:07,919 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:07,959 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.018512]
+2018-04-24 15:16:08,039 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,043 - INFO - socials.on_status(): 371: Got a new interaction id: [988859152322711553] text [Dear friends, here's my Promo Code: 6ham5mj6, use it when you join ROK and get some sweet rewards!  https://t.co/dyUHW5NYtI]
+2018-04-24 15:16:08,066 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.011007]
+2018-04-24 15:16:08,107 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,114 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005504]
+2018-04-24 15:16:08,135 - INFO - socials.on_status(): 371: Got a new interaction id: [988859153161564161] text [Get £50 OFF your first 10 London taxi rides with #GETT - click https://t.co/MYFseEFTjt and use code GTMARKM8 --April 24, 2018 at 08:16PM]
+2018-04-24 15:16:08,152 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,161 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007504]
+2018-04-24 15:16:08,190 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,196 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005003]
+2018-04-24 15:16:08,196 - INFO - socials.on_status(): 371: Got a new interaction id: [988859145490194432] text [Forget that taxi Spokane! Uber rival Lyft gives 10 dollars credit with promo code FASTEST. Mega savings. #ad High f… https://t.co/CoVKgiuGcP]
+2018-04-24 15:16:08,219 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,225 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005004]
+2018-04-24 15:16:08,269 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,274 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004504]
+2018-04-24 15:16:08,299 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,305 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004504]
+2018-04-24 15:16:08,324 - INFO - socials.on_status(): 371: Got a new interaction id: [988859154033856512] text [RT @HatInTime: You asked for it! We have teamed up with @theyetee to bring our fans the cutest merch out there!
+
+Shirts, buttons, a poster…]
+2018-04-24 15:16:08,349 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,358 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.008505]
+2018-04-24 15:16:08,371 - INFO - socials.on_status(): 371: Got a new interaction id: [988859153727803397] text [RT @ArtHappySmile: Use Coupon Code MOTHERSDAY and get 30% OFF! 💥7 Chakra bracelet Elephant Chakra Bracelet Yoga bracelet Bronze Jewelry Boh…]
+2018-04-24 15:16:08,379 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,387 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007004]
+2018-04-24 15:16:08,409 - INFO - socials.on_status(): 371: Got a new interaction id: [988859153736192001] text [RT @Dalipas: Messieurs-dames filmez en PÉRISCOPE pour que vos images aillent immédiatement sur internet et y restent et s'ils vous demanden…]
+2018-04-24 15:16:08,419 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,428 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.008506]
+2018-04-24 15:16:08,468 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,476 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006504]
+2018-04-24 15:16:08,499 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,508 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.008506]
+2018-04-24 15:16:08,548 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,556 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007004]
+2018-04-24 15:16:08,580 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,586 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005002]
+2018-04-24 15:16:08,628 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,634 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005505]
+2018-04-24 15:16:08,660 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,666 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006002]
+2018-04-24 15:16:08,706 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,712 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005503]
+2018-04-24 15:16:08,747 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,756 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.008006]
+2018-04-24 15:16:08,793 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,802 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.008005]
+2018-04-24 15:16:08,830 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,838 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007505]
+2018-04-24 15:16:08,860 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,868 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007005]
+2018-04-24 15:16:08,918 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,944 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004503]
+2018-04-24 15:16:08,970 - INFO - socials.on_status(): 371: Got a new interaction id: [988859156651114496] text [RT @WTFConfesslon: lmao breaking bro code or nah? 🤔 https://t.co/DlL3XoAXpL]
+2018-04-24 15:16:08,971 - INFO - socials.on_status(): 371: Got a new interaction id: [988859156701503488] text [RT @kylekuzma: You can now kill 4 people and get a free out of jail code for only 200k in America now..... https://t.co/SUfct4NYMF]
+2018-04-24 15:16:08,981 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:08,987 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005005]
+2018-04-24 15:16:09,027 - INFO - socials.on_status(): 371: Got a new interaction id: [988859156965740544] text [RT @LukaszukAB: “Border Crisis” is just another @CPC_HQ dog whistle code against immigration &amp; immigrants. “Old Stock Canadians”, “Canadian…]
+2018-04-24 15:16:09,034 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,041 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006503]
+2018-04-24 15:16:09,060 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,066 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005503]
+2018-04-24 15:16:09,107 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,113 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005003]
+2018-04-24 15:16:09,153 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,160 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007007]
+2018-04-24 15:16:09,191 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,197 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005503]
+2018-04-24 15:16:09,219 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,225 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005502]
+2018-04-24 15:16:09,268 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,274 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005004]
+2018-04-24 15:16:09,299 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,305 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005004]
+2018-04-24 15:16:09,341 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,349 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007003]
+2018-04-24 15:16:09,388 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,395 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006003]
+2018-04-24 15:16:09,419 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,426 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006005]
+2018-04-24 15:16:09,469 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,477 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.007002]
+2018-04-24 15:16:09,499 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,504 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.005004]
+2018-04-24 15:16:09,549 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,556 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.006505]
+2018-04-24 15:16:09,581 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,590 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.008507]
+2018-04-24 15:16:09,628 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,637 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.008506]
+2018-04-24 15:16:09,668 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,673 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003504]
+2018-04-24 15:16:09,701 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,707 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004002]
+2018-04-24 15:16:09,745 - INFO - socials.on_status(): 371: Got a new interaction id: [988859159993974784] text [RT @LeighDebugs: The same Java error that took me 15 minutes to figure out a week ago took me 2minutes today. We all know that the more you…]
+2018-04-24 15:16:09,748 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,753 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.004002]
+2018-04-24 15:16:09,781 - INFO - mapset.execute_next_map(): 162: Starting Map Execution
+2018-04-24 15:16:09,785 - INFO - mapset.execute_next_map(): 189: Map Execution Complete, duration [0.003003]
