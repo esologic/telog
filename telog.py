@@ -42,15 +42,21 @@ def setup_logging(config_file_name="config.yaml", log_files_dir_name="logs", def
 
 class Filter(logging.Filter):
 
-    def __init__(self, filter_name="filter.yaml"):
+    def __init__(self, filter_name=None):
 
         self.__name_to_level__ = {"DEBUG": logging.DEBUG, "INFO": logging.INFO, "WARN": logging.WARNING,
                                   "WARNING": logging.WARNING, "ERROR": logging.ERROR}
 
         self.mode = None
+        self.global_filter = None
         self.filter_dict = {}
 
-        with open(os.path.join(directory_name, filter_name), 'rt') as f:
+        if filter_name is None:
+            filter_path = os.path.join(directory_name, "default_filter.yaml")
+        else:
+            filter_path = filter_name
+
+        with open(filter_path, 'rt') as f:
 
             try:
                 config_dict = yaml.safe_load(f.read())
@@ -58,17 +64,21 @@ class Filter(logging.Filter):
                 self.mode = config_dict["filter_in"]
                 self.filter_dict = config_dict["modules"]
 
-                # do name to level conversion
-                for mod in self.filter_dict:
+                if isinstance(self.filter_dict, dict):
 
-                    if isinstance(self.filter_dict[mod], dict):
-                        module_dict = self.filter_dict[mod]
+                    # do name to level conversion
+                    for mod in self.filter_dict:
 
-                        for method in module_dict:
-                            module_dict[method] = self.name_to_level(module_dict[method])
+                        if isinstance(self.filter_dict[mod], dict):
+                            module_dict = self.filter_dict[mod]
 
-                    else:
-                        self.filter_dict[mod] = self.name_to_level(self.filter_dict[mod])
+                            for method in module_dict:
+                                module_dict[method] = self.name_to_level(module_dict[method])
+
+                        else:
+                            self.filter_dict[mod] = self.name_to_level(self.filter_dict[mod])
+                else:
+                    self.global_filter = self.name_to_level(self.filter_dict)
 
             except Exception:
                 print("There was a problem loading in the [" + str(filter_name) + "] filter")
@@ -80,29 +90,37 @@ class Filter(logging.Filter):
 
         if self.mode is False:  # filter out mode
 
-            if record.module in self.filter_dict:
-                try:
-                    if record.funcName in self.filter_dict[record.module]:
-                        if record.levelno <= self.filter_dict[record.module][record.funcName]:
-                            return False
+            if self.global_filter is not None:
+                if record.levelno <= self.global_filter:
+                    return False
+            else:
+                if record.module in self.filter_dict:
+                    try:
+                        if record.funcName in self.filter_dict[record.module]:
+                            if record.levelno <= self.filter_dict[record.module][record.funcName]:
+                                return False
 
-                except TypeError: # meaning the whole module is being filtered
-                    if record.levelno <= self.filter_dict[record.module]:
-                        return False
+                    except TypeError: # meaning the whole module is being filtered
+                        if record.levelno <= self.filter_dict[record.module]:
+                            return False
 
             return True
 
         if self.mode is True:  # filter in mode
 
-            if record.module in self.filter_dict:
-                try:
-                    if record.funcName in self.filter_dict[record.module]:
-                        if record.levelno >= self.filter_dict[record.module][record.funcName]:
-                            return True
+            if self.global_filter is not None:
+                if record.levelno >= self.global_filter:
+                    return True
+            else:
+                if record.module in self.filter_dict:
+                    try:
+                        if record.funcName in self.filter_dict[record.module]:
+                            if record.levelno >= self.filter_dict[record.module][record.funcName]:
+                                return True
 
-                except TypeError:  # meaning the whole module is being filtered
-                    if record.levelno >= self.filter_dict[record.module]:
-                        return True
+                    except TypeError:  # meaning the whole module is being filtered
+                        if record.levelno >= self.filter_dict[record.module]:
+                            return True
 
             return False
 
@@ -111,9 +129,14 @@ class Filter(logging.Filter):
             return True # the filter config file was bad, pass all messages
 
 
+def set_new_filter(new_filter_path):
+    telogger.removeFilter(default_filter)
+    new_filter = Filter(filter_name=new_filter_path)
+    telogger.addFilter(new_filter)
+    print("Filter [" + str(new_filter_path) + "] installed")
+
 setup_logging()
-
 telogger = logging.getLogger(__name__)
-
-telogger.addFilter(Filter())
+default_filter = Filter()
+telogger.addFilter(default_filter)
 
