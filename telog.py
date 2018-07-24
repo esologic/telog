@@ -3,12 +3,12 @@ import yaml
 import logging
 import logging.config
 
-directory_name, file_name = os.path.split(os.path.abspath(__file__))
-
 
 def setup_logging(config_file_name="config.yaml", log_files_dir_name="logs", default_level=logging.INFO):
 
     print("Setting up text logs")
+
+    directory_name, file_name = os.path.split(os.path.abspath(__file__))
 
     config_file_path = os.path.join(directory_name, config_file_name)
     print("Loading in config file [" + str(config_file_path) + "]")
@@ -44,6 +44,8 @@ class Filter(logging.Filter):
 
     def __init__(self, filter_name=None):
 
+        directory_name, file_name = os.path.split(os.path.abspath(__file__))
+
         self.__name_to_level__ = {"DEBUG": logging.DEBUG, "INFO": logging.INFO, "WARN": logging.WARNING,
                                   "WARNING": logging.WARNING, "ERROR": logging.ERROR}
 
@@ -77,6 +79,7 @@ class Filter(logging.Filter):
 
                         else:
                             self.filter_dict[mod] = self.name_to_level(self.filter_dict[mod])
+
                 else:
                     self.global_filter = self.name_to_level(self.filter_dict)
 
@@ -124,19 +127,18 @@ class Filter(logging.Filter):
 
             return False
 
-
         else:
-            return True # the filter config file was bad, pass all messages
+            return True  # the filter config file was bad, pass all messages
 
 
 def set_new_filter(new_filter_path):
-    telogger.removeFilter(default_filter)
     new_filter = Filter(filter_name=new_filter_path)
-    telogger.addFilter(new_filter)
+    logger = logging.getLogger()
+    logger.addFilter(new_filter)
     print("Filter [" + str(new_filter_path) + "] installed")
 
-setup_logging()
-telogger = logging.getLogger(__name__)
-default_filter = Filter()
-telogger.addFilter(default_filter)
+
+def setup_telogger(new_filter_path):
+    setup_logging()
+    set_new_filter(new_filter_path)
 

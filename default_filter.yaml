@@ -1,2 +1,13 @@
-filter_in: True
-modules: WARNING
+filter_in: False
+
+modules:
+  hardwareinterfaces:
+    write_command: ERROR
+  mapset:
+    execute_next_map: ERROR
+    __add_fades_to_internal_mapset__: INFO
+    add_compound_linear_fades: INFO
+  abstract_animation: INFO
+  abstract_socials:
+    __remove_punctuation_from_string__: INFO
+    lowercaseify_interactions: INFO
