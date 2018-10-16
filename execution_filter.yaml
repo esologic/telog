@@ -1,0 +1,12 @@
+filter_in: True
+
+modules:
+  mapset:
+    ingestion_loop: WARNING
+    get_ingestion_maps: WARNING
+    execution_loop: WARNING
+    child_monitor_loop: WARNING
+    update_properties_loop: WARNING
+  hardwareinterfaces: WARNING
+  simulatedinterfaces: WARNING
+
