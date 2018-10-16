@@ -138,7 +138,8 @@ def set_new_filter(new_filter_path):
     print("Filter [" + str(new_filter_path) + "] installed")
 
 
-def setup_telogger(new_filter_path):
+def setup_telogger(new_filter_path=None):
     setup_logging()
-    set_new_filter(new_filter_path)
+    if new_filter_path is not None:
+        set_new_filter(new_filter_path)
 
