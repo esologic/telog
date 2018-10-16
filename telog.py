@@ -83,8 +83,8 @@ class Filter(logging.Filter):
                 else:
                     self.global_filter = self.name_to_level(self.filter_dict)
 
-            except Exception:
-                print("There was a problem loading in the [" + str(filter_name) + "] filter")
+            except BaseException as e:
+                print("There was a problem loading in the [" + str(filter_name) + "] filter error [" + str(e) + "]")
 
     def name_to_level(self, name):
         return self.__name_to_level__[name.upper()]
